@@ -1,0 +1,27 @@
+mutation {
+  insert_posts(objects: [
+    { text: "Exploring the intricacies and beauty of modern art in various cultures.", user_id: 1, type_id: 1 },
+    { text: "Tried an amazing Italian recipe featuring truffle oil and homemade pasta.", user_id: 1, type_id: 2 },
+    { text: "Top moments from the championship finals in European football this year.", user_id: 1, type_id: 6 },
+    { text: "New findings in quantum physics that could revolutionize computing.", user_id: 1, type_id: 5 },
+
+    { text: "Five easy steps to integrate mindfulness and meditation into your daily routine.", user_id: 2, type_id: 3 },
+    { text: "A deep dive into the latest blockbuster film and its cultural impact.", user_id: 2, type_id: 4 },
+    { text: "Creative techniques for painting stunning landscapes.", user_id: 2, type_id: 1 },
+    { text: "Exploring exotic spices for enhancing traditional recipes.", user_id: 2, type_id: 2 },
+    { text: "Latest scientific breakthroughs in renewable energy.", user_id: 2, type_id: 5 },
+
+    { text: "Key exercises to improve your physical health and stamina.", user_id: 3, type_id: 3 },
+    { text: "Highlights from this year’s most thrilling sports events.", user_id: 3, type_id: 6 },
+
+    { text: "Innovative tools for better cinematic editing techniques.", user_id: 4, type_id: 4 },
+    { text: "Best trekking routes in untouched wilderness locations.", user_id: 4, type_id: 7 },
+    { text: "Exciting applications of theoretical physics in modern tech.", user_id: 4, type_id: 5 },
+
+    { text: "Fitness challenges and how to stay consistent with them.", user_id: 5, type_id: 3 },
+    { text: "Top highlights from the international soccer tournament.", user_id: 5, type_id: 6 },
+    { text: "Delicious twists on classic holiday recipes.", user_id: 5, type_id: 2 }
+  ]) {
+    affected_rows
+  }
+}

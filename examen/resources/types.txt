@@ -1,0 +1,13 @@
+mutation {
+  insert_types(objects: [
+    { id: 1, name: "Arts and Paintings", icon: "art" },
+    { id: 2, name: "Food and Recipes", icon: "food" },
+    { id: 3, name: "Health and Wellness", icon: "health" },
+    { id: 4, name: "Media Reviews", icon: "media" },
+    { id: 5, name: "Scientific Facts", icon: "science" },
+    { id: 6, name: "Sports Events", icon: "sport" },
+    { id: 7, name: "Travel Destinations", icon: "travel" }
+  ]) {
+    affected_rows
+  }
+}

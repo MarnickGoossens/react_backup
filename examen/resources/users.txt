@@ -1,0 +1,11 @@
+mutation {
+  insert_users(objects: [
+    { id: 1, username: "jdoe", name: "John Doe" },
+    { id: 2, username: "asmith", name: "Alice Smith" },
+    { id: 3, username: "bwayne", name: "Bruce Wayne" },
+    { id: 4, username: "ckent", name: "Clark Kent" },
+    { id: 5, username: "ddiana", name: "Diana Prince" }
+  ]) {
+    affected_rows
+  }
+}
